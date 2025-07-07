@@ -30,8 +30,8 @@ Users can create, view, and delete blog posts with images and metadata such as t
 ### 1. 📥 Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/technews-blog.git
-cd technews-blog
+git clone https://github.com/yourusername/technews-blog-app.git
+cd technews-blog-app
 ```
 
 ### 2. 📦 Install Dependencies
