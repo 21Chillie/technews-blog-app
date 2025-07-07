@@ -43,3 +43,7 @@ npm install
 ```bash
 node app.js
 ```
+and run you browser and type
+```bash
+http://localhost:3000/
+```
