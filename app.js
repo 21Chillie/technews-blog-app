@@ -1,12 +1,20 @@
 import express from "express";
 import bodyParser from "body-parser";
 import multer from "multer";
+import fs from "fs";
+import path from "path";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
+const uploadsDir = path.join("public", "uploads");
+if (!fs.existsSync(uploadsDir)) {
+	fs.mkdirSync(uploadsDir, { recursive: true });
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
+
+
+}
 
 let posts = [
 	{
