@@ -43,16 +43,3 @@ npm install
 ```bash
 node app.js
 ```
-
-## 📁 Project Structure
-├── public/
-│ ├── images/ # Static images (e.g., logo, default assets)
-│ └── uploads/ # Uploaded blog images
-├── views/
-│ ├── partials/
-│ │ ├── header.ejs # Shared header (navbar, logo, etc.)
-│ │ └── footer.ejs # Shared footer (copyright)
-│ ├── index.ejs # Home page with list of posts
-│ ├── create.ejs # Blog creation form
-│ └── post.ejs # Single post view
-├── app.js # Main Express server file
